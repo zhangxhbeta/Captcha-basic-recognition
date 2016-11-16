@@ -47,7 +47,7 @@ def getIndividualContoursRectangles(contours): #Return the bounding rect for eve
 
 
 if __name__=="__main__":
-    orig = cv.LoadImage("robin2.png")
+    orig = cv.LoadImage("validatecode.jpg")
 
     #Convert in black and white
     res = cv.CreateImage(cv.GetSize(orig), 8, 1)
